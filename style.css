@@ -1,0 +1,84 @@
+.offset:before {
+    display: block;
+    content: "";
+    height: 6rem;
+}
+
+.heading-content {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    max-width: 100%;
+}
+
+.heading-content h5 {
+    font-size: 3em;
+    font-weight: 300;
+    color: #fff;
+    font-family: monospace;
+}
+
+.heading-content h1 {
+    font-size: 5em;
+    font-weight: bolder;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+
+.heading-content p {
+    font-size: 1em;
+    font-weight: lighter;
+    color: #ccc;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.sec1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8fafb;
+}
+
+.sec1 h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    letter-spacing: 3px;
+    line-height: 50px;
+}
+
+.sec1 p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+
+/*------MEDIA QUERY----------*/
+
+@media screen and (max-width: 767px) {
+    /*------tablets----------*/
+    .heading-content h5 {
+        font-size: 3em;
+    }
+    .heading-content h1 {
+        font-size: 3em;
+    }
+    .heading-content p {
+        font-size: 0.9em;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    /*------smartphones----------*/
+    .heading-content h5 {
+        font-size: 2em;
+    }
+    .heading-content h1 {
+        font-size: 2em;
+    }
+    .heading-content p {
+        font-size: 0.7em;
+    }
+}

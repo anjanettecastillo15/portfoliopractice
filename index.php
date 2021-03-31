@@ -1,5 +1,6 @@
 <html>
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <title>Anj's Portfolio</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -39,7 +40,7 @@
 
   <div class="background">
     <!--BACKGROUND START-->
-      <img src="wjLY44B_.jpg" class="img-fluid">
+      <img src="wjLY44B_.jpg" class="img-fluid container-fluid">
     <!--BACKGROUND END-->
     </div>
 
@@ -59,7 +60,7 @@
     <hr class="w-50 mx-auto mb-5">
   </div>
   <div class="row">
-    <div class="col-lg-6 col-md-6 col-12">
+    <div class="col-lg-6 col-md-6 col-12 pb-4">
       <img src="117971389_1176079412762606_7526509498371256350_o.jpg" class="img-fluid">
     </div>
 

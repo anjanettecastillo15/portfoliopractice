@@ -81,4 +81,7 @@
     .heading-content p {
         font-size: 0.7em;
     }
+    #contact .post-heading h3 {
+        font-size: 2em;
+    }
 }
